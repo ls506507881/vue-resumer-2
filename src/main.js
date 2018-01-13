@@ -5,11 +5,16 @@ import App from './App'
 import 'normalize.css'
 import './assets/reset.scss'
 
-Vue.config.productionTip = false
+import 'element-ui/lib/theme-chalk/index.css'
+import ElementUI from 'element-ui'
 
+Vue.config.productionTip = false
+Vue.use(ElementUI)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   template: '<App/>',
   components: { App }
 })
+
+
