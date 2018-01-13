@@ -4,19 +4,21 @@
             Resumer
         </div>
         <div class="actions">
-            <button>登录</button>
-            <button>注册</button>
+            <el-button type="primary">登录</el-button>
+            <el-button>注册</el-button>
         </div>
   </div>
 </template>
 
 <style lang="scss">
 #Topbar{
-    border: 1px solid blue;
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 16px;
+    .logo{
+        font-size: 20px;
+    }
 }
 </style>
 
